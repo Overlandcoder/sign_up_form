@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-side {
+  display: flex;
+  width: 40%;
+}
+
+.left-side img {
+  background-size: cover;
+  width: 100%;
+}
+
+.right-side {
+  width: 60%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sales-pitch {
+  width: 75%;
+  margin-top: 150px;
+  height: 35%;
+}
+
+.sales-pitch p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.signup-form {
+  display: flex;
+  width: 60%;
+  gap: 50px;
+  height: 30%;
+}
+
+input, label {
+  display:block;
+}
+
+.signup-form input {
+  width: 250px;
+  height: 25px;
+}
+
+.buttons {
+  height: 35%;
+}
+
+.signup-form label {
+  margin-top: 20px;
+}
