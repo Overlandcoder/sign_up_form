@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+input {
+  all: unset;
+}
+
+button {
+  all: unset;
+}
+
 .main {
   display: flex;
   width: 100%;
@@ -21,15 +29,16 @@
 
 .right-side {
   width: 60%;
-  margin-left: 60px;
   display: flex;
   flex-direction: column;
+  background-color: rgb(245, 245, 245);
 }
 
 .sales-pitch {
   width: 75%;
-  margin-top: 150px;
+  margin-top: 10%;
   height: 35%;
+  margin-left: 60px;
 }
 
 .sales-pitch p {
@@ -39,9 +48,15 @@
 
 .signup-form {
   display: flex;
-  width: 60%;
   gap: 50px;
   height: 30%;
+  padding: 0 0 30px 60px;
+  background-color: #fff;
+  color: rgb(61, 61, 61);
+}
+
+label {
+  padding-bottom: 3px;
 }
 
 input, label {
@@ -50,13 +65,61 @@ input, label {
 
 .signup-form input {
   width: 250px;
-  height: 25px;
+  height: 16px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 3px;
+}
+
+input:focus {
+  border: 1px solid rgb(83, 153, 251);
+  box-shadow: 1px 1px 3px rgb(180, 180, 180);
+}
+
+h3 {
+  font-size: 24px;
 }
 
 .buttons {
   height: 35%;
+  margin-left: 60px;
 }
 
 .signup-form label {
   margin-top: 20px;
+}
+
+.form-heading {
+  padding: 20px 0 5px 0;
+  padding-left: 60px;
+  background-color: #fff;
+}
+
+button {
+  background-color: #596D48;
+  padding: 13px 45px;
+  width: 200px;
+  color: #fff;
+  font-size: 16px;
+  width: auto;
+  border-radius: 7px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px rgb(98, 98, 98);
+}
+
+.buttons {
+  padding-top: 30px;
+}
+
+.log-in {
+  display: flex;
+  padding-top: 25px;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.log-in a {
+  color: #596D48;
+  font-weight: bold;
 }
