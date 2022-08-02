@@ -65,13 +65,24 @@ button {
 }
 
 .signup-form {
-  display: flex;
-  gap: 50px;
   height: 30%;
-  padding: 0 0 30px 60px;
-  background-color: #fff;
   color: rgb(61, 61, 61);
   box-shadow: 4px 4px 7px rgb(185, 185, 185);
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 50px 60px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.name-row,
+.contact-info-row,
+.password-row {
+  display: flex;
+  gap: 70px;
 }
 
 label {
@@ -79,7 +90,7 @@ label {
 }
 
 input, label {
-  display:block;
+  display: block;
 }
 
 .signup-form input {
@@ -110,8 +121,7 @@ h3 {
 }
 
 .form-heading {
-  padding: 20px 0 5px 0;
-  padding-left: 60px;
+  padding: 20px 0 0 60px;
   background-color: #fff;
 }
 
