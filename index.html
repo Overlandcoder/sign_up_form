@@ -29,29 +29,46 @@
         <h3>Let's do this!</h3>
       </div>
       <div class="signup-form">
-        <form class="left">
-          <label for="first-name">FIRST NAME</label>
-          <input type="text" id="first-name" name="name" required>
-          <label for="email">EMAIL</label>
-          <input type="email" id="email" name="email" required>
-          <label for="pwd">PASSWORD</label>
-          <input type="password" id="pwd" name="password" required>
+        <form>
+          <div class="name-row">
+            <div class="name-element">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="name" required>
+            </div>
+            <div class="name-element">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="name" required>
+            </div>
+          </div>
+          <div class="contact-info-row">
+            <div class="info-element">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="info-element">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" id="phone-number" name="phone-number">
+            </div>
+          </div>
+          <div class="password-row">
+            <div class="password-element">
+              <label for="pwd">PASSWORD</label>
+              <input type="password" id="pwd" name="password" required>
+            </div>
+            <div class="password-element">
+              <label for="confirm-pwd">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-pwd" name="password" required>
+            </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button type="submit">Create Account</button>
+            <div class="log-in">
+              <p>Already have an account?</p>
+              <a>Log in</a>
+            </div>
+          </div>
         </form>
-        <form class="right">
-          <label for="last-name">LAST NAME</label>
-          <input type="text" id="last-name" name="name" required>
-          <label for="phone-number">PHONE NUMBER</label>
-          <input type="tel" id="phone-number" name="phone-number">
-          <label for="confirm-pwd">CONFIRM PASSWORD</label>
-          <input type="password" id="confirm-pwd" name="password" required>
-        </form>
-      </div>
-      <div class="buttons">
-        <button type="submit">Create Account</button>
-        <div class="log-in">
-          <p>Already have an account?</p>
-          <a>Log in</a>
-        </div>
       </div>
     </div>
   </div>
