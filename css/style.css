@@ -27,6 +27,24 @@ button {
   width: 100%;
 }
 
+.sidebar {
+  position: absolute;
+  margin-top: 250px;
+  height: 120px;
+  width: 40%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.407);
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.sidebar img {
+  width: auto;
+  height: 90%;
+}
+
 .right-side {
   width: 60%;
   display: flex;
@@ -122,4 +140,15 @@ button {
 .log-in a {
   color: #596D48;
   font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(59, 59, 59);
+  text-decoration-line: underline;
 }
