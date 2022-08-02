@@ -71,6 +71,7 @@ button {
   padding: 0 0 30px 60px;
   background-color: #fff;
   color: rgb(61, 61, 61);
+  box-shadow: 4px 4px 7px rgb(185, 185, 185);
 }
 
 label {
@@ -116,7 +117,7 @@ h3 {
 
 button {
   background-color: #596D48;
-  padding: 13px 45px;
+  padding: 13px 55px;
   width: 200px;
   color: #fff;
   font-size: 16px;
@@ -127,7 +128,7 @@ button {
 }
 
 .buttons {
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .log-in {
