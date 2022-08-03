@@ -163,3 +163,16 @@ a:hover {
   color: rgb(59, 59, 59);
   text-decoration-line: underline;
 }
+
+.photo-credit {
+  position: absolute;
+  bottom: 40px;
+  left: 250px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.photo-credit a {
+  color: #fff;
+  text-decoration: none;
+}
